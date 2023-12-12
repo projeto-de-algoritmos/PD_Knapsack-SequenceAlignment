@@ -61,6 +61,8 @@ Para executar o projeto basta baixar e abrir o arquivo html no navegador
 
 
 ## Apresentação
+## Vídeo de apresentação
 
+[Apresentação](./assets/finalApresentacao.mp4)
 
 
