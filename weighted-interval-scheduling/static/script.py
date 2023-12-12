@@ -34,9 +34,14 @@ def addTask(evt):
 
 def on_complete(req):
     data = json.loads(req.text)
-    print(data.get('scheduled_tasks'))
-    document['tasks'] <= html.P(data.get('scheduled_tasks'))
+
     document['t_weight'] <= html.SPAN(data.get('t_weight'))
+
+    tasks = data.get('scheduled_tasks')
+    for task in tasks:
+        document['tasks'] <= html.LI(task)
+
+    document['modal_result'].style.display = 'block'
 
 def runScheduling(evt):
     table = document.getElementById('task-table')

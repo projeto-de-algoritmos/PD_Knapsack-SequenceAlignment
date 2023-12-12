@@ -15,7 +15,7 @@ class WeightedIntervalScheduling:
     def largest_compatible_indices(self, sorted_tasks, n):
         self.p = [0] * (n + 1)
 
-        for j in range(2, n): # [h_inicio, h_fim, peso]
+        for j in range(1, n+1): # [h_inicio, h_fim, peso]
             for i in range(j - 1, 0, -1):
                 if sorted_tasks[i][1] <= sorted_tasks[j][0]:  
                     self.p[j] = i

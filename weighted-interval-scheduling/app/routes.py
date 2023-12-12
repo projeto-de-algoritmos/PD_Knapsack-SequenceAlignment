@@ -35,11 +35,13 @@ def route_runscheduling(request: Request, response_model=Message):
         item[2] = int(item[2])
     
     n = len(tasks)
+
     sorted_tasks = wis.sort_by_finish_time(tasks)
-    sorted_tasks.insert(0, [0, 0, 0]) 
+    sorted_tasks.insert(0, [0, 0, 0])
 
     wis.largest_compatible_indices(sorted_tasks, n-1)
     wis.iterative_compute_opt(sorted_tasks, n-1)
+
     wis.find_solution(n-1, sorted_tasks)
 
     t_weight = sum(item[2] for item in wis.scheduled_tasks)
