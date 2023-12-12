@@ -10,12 +10,19 @@
 | 17/0034941  |  Guilherme Peixoto |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
-
+Foram realizados 2 projetos um com o algorítimo de sequence aligment e o segundo de maior subsequencia crescente. 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
+### Projeto 1:
+
+### Projeto 2:
+### **Site maior sequencia crescente**
+![Código](maior-subsequencia-crescente-master/assets/tf-site.png)
+### **Código motor**
+![Código 493](maior-subsequencia-crescente-master/assets/code.png)
 
 ## Instalação 
+### Projeto 1
 **Linguagem**: Python<br>
 **Framework**: Poetry, FastAPI, Uvicorn<br>
 
@@ -40,6 +47,11 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
   ```
 
   Agora só acessar: [http://127.0.0.1:8000](http://127.0.0.1:8000).
+
+  
+### Projeto 2
+Para executar o projeto basta baixar e abrir o arquivo html no navegador
+
 
 ## Uso 
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
