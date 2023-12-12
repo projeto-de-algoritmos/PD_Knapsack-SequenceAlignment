@@ -35,6 +35,9 @@ def addTask(evt):
 def on_complete(req):
     data = json.loads(req.text)
 
+    document['tasks'].innerHTML = ''
+    document['t_weight'].innerHTML = ''
+
     document['t_weight'] <= html.SPAN(data.get('t_weight'))
 
     tasks = data.get('scheduled_tasks')
