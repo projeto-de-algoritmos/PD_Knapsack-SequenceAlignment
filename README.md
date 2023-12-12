@@ -10,13 +10,20 @@
 | 17/0034941  |  Guilherme Peixoto |
 
 ## Sobre 
-Foram realizados 2 projetos um com o algorítimo de sequence aligment e o segundo de maior subsequencia crescente. 
+Foram realizados 2 projetos um com o algorítimo de Weighted Interval Scheduling e o segundo de Maior Subsequencia Crescente. 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
-### Projeto 1:
+### Projeto 1: Weighted Interval Scheduling
+### **Site**
+![Site](weighted-interval-scheduling/static/img/site.png)
 
-### Projeto 2:
-### **Site maior sequencia crescente**
+### **Resultado**
+![Resultado](weighted-interval-scheduling/static/img/resultado.png)
+
+### **Código**
+![Code](weighted-interval-scheduling/static/img/code.png)
+
+### Projeto 2: Maior Sequência Crescente
+### **Site**
 ![Código](maior-subsequencia-crescente-master/assets/tf-site.png)
 ### **Código motor**
 ![Código 493](maior-subsequencia-crescente-master/assets/code.png)
@@ -53,11 +60,7 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 Para executar o projeto basta baixar e abrir o arquivo html no navegador
 
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+## Apresentação
 
 
 
