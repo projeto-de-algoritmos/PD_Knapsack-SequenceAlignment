@@ -1,4 +1,11 @@
-.oi {
-  background-color: black;
+body, html {
+  background: linear-gradient(to bottom right, #007bff, #000000);
+  height: 100%;
+  margin: 0;
+}
+
+.wis {
   color: white;
+  text-align: center;
+  font-size: 50px;
 }
