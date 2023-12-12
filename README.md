@@ -59,8 +59,6 @@ Foram realizados 2 projetos um com o algorítimo de Weighted Interval Scheduling
 ### Projeto 2
 Para executar o projeto basta baixar e abrir o arquivo html no navegador
 
-
-## Apresentação
 ## Vídeo de apresentação
 
 [Apresentação](./finalApresentacao.mp4)
